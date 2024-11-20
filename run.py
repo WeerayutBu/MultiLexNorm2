@@ -47,7 +47,7 @@ def main(args):
         cmd += f' --train {train_path}'
         cmd += f' --dev {pred_path}'
         cmd += f' --out {output_path}'
-        cmd += f' > {output_path.replace(".pred", ".score")}'
+        # cmd += f' > {output_path.replace(".pred", ".score")}'
         
         # Create directory for each language if it doesn't exist
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
