@@ -11,6 +11,7 @@ We provide two simple baseline methods for lexical normalization:
 - Most-frequent-Replacement (MFR): Uses the most frequent replacement based on the training data. If the input word is not present in the training data, it returns the input word.
 
 ## Directory Structure
+
 ```
 .
 ├── data/
