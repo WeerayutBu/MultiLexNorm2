@@ -166,4 +166,4 @@ data/dev/new_languages
 data/dev_masked/new_languages
 data/test
 data/test_masked
-data/train
+data/train/new_languages
