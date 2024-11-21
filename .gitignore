@@ -167,3 +167,6 @@ data/dev_masked/new_languages
 data/test
 data/test_masked
 data/train/new_languages
+
+# Mask .DS_Store files created by Mac OS
+.DS_Store
