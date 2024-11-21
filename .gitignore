@@ -163,7 +163,7 @@ cython_debug/
 run.sh
 output
 data/dev/new_languages
-data/dev_masked
+data/dev_masked/new_languages
 data/test
 data/test_masked
 data/train
