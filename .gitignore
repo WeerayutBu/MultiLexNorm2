@@ -161,12 +161,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 run.sh
-output
-data/dev/new_languages
-data/dev_masked/new_languages
-data/test
-data/test_masked
-data/train/new_languages
-
 # Mask .DS_Store files created by Mac OS
 .DS_Store
+
+## Do not commit the data folder
+output
+data/test
+
+## Wait for the data to be uploaded to the server
+# data/dev/new_languages
+# data/dev_masked/new_languages
+data/test_masked
+# data/train/new_languages
