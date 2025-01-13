@@ -104,6 +104,8 @@ if __name__ == '__main__':
 
         if(opts.out != ''):
             write(devRaw, predictions, opts.out)
+        
+        ## Dev Goald[0] == ['', '', '']
         normEval.evaluate(devRaw, devGold, predictions)
 
 
