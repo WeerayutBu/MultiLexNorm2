@@ -170,17 +170,17 @@ data/test
 
 
 ## Wait for the data to be uploaded to the server
-data/train/new_languages/ja
-data/train/new_languages/ko
+# data/train/new_languages/ja
+# data/train/new_languages/ko
 
 # data/dev/new_languages
-data/dev/new_languages/ja
-data/dev/new_languages/ko
+# data/dev/new_languages/ja
+# data/dev/new_languages/ko
 # data/dev_masked/new_languages
-data/dev_masked/new_languages/ja
-data/dev_masked/new_languages/ko
+# data/dev_masked/new_languages/ja
+# data/dev_masked/new_languages/ko
 # data/test_masked
-data/test_masked/new_languages/ja
-data/test_masked/new_languages/ko
+# data/test_masked/new_languages/ja
+# data/test_masked/new_languages/ko
 # data/train/new_languages
 log
